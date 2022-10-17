@@ -1,0 +1,1 @@
+Basic examples of HTML for mentoring and future purpose.
