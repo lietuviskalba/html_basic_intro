@@ -1,21 +1,55 @@
+<!-- 
+	>> Documentation for HTML
+    	[] Basic Tags
+	>> Page: 6
+	>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit# 
+-->
+
+<!-- !DOCTYPE informs the browser about the type and version of HTML used in building the web document -->
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>My first website!</title>
+	<title>My N-th website!</title>
 </head>
+
 <body>
+	<!-- The anchor tag defines a hyperlink, which is used to link from one page to another -->
 	<a href="newpage.html">New Page</a><br>
 	<a href="register.html">Register</a>
+
+	<!-- Header tags are used to define HTML headings -->
+	<h1> I am an H1 heading</h1>
+	<h2> I am an H2 heading</h2>
+	<h3> I am an H3 heading</h3>
+	<h4> I am an H4 heading and so on and so on...</h4>
+
+	<!-- <div> used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript -->
+	<!-- <p> defines a paragraph -->
+	<!-- <br> a single line break -->
+	<div>
+		<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+	</div>
+
+	<!-- Ordered list tag defines an unordered (bulleted) list -->
 	<ul>
+		<!-- Defines a list item -->
 		<li>banana</li>
 		<li>apple</li>
 		<ul>
 			<li>fuji</li>
-			<img src="http://www.drysparkling.com/wp-content/uploads/2015/04/DRY_Apple_whole-1.jpg" width="42" height="42">
+			<!-- image tag is used to embed an image in an HTML page -->
+			<!-- src attribute specifies the path to the image -->
+			<!-- width and height attributes specify the size -->
+			<!-- The src link used to find img on the web. It might be broken in the future, replace with a working one -->
+			<img src="https://img.taste.com.au/g60Nr8OS/taste/2016/11/ten-secrets-of-fuji-apples-64754-1.jpg" width="52"
+				height="42">
 			<li>honeycrisp</li>
-			<img src="http://www.apples.me/assets/images/honeycrisp.jpg" width="42" height="42">
+			<!-- The src local location uses image in the img folder -->
+			<img src="img\Honeycrisp.jpg" width="42" height="42">
 		</ul>
 		<li>orange</li>
 	</ul>
 </body>
+
 </html>
